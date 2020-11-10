@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Avatar, Grid, Box } from '@material-ui/core';
-import avatar from '../avatar2.png';
+import avatar from '../avatar.jpg';
 import Typed from 'react-typed';
 
 // CSS Styles

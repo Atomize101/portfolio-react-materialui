@@ -15,7 +15,7 @@ import {
 	ListItemIcon,
 } from '@material-ui/core';
 import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
-import avatar from '../avatar2.png';
+import avatar from '../avatar.jpg';
 import { makeStyles } from '@material-ui/core/styles';
 
 // CSS styles
