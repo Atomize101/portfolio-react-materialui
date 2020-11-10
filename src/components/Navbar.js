@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
 	menuSliderContainer: {
 		width: 250,
 		background: '#511',
-		height: '30rem',
+		height: '100%',
 	},
 	avatar: {
 		display: 'black',
@@ -64,7 +64,7 @@ const Navbar = () => {
 	const classes = useStyles();
 
 	const sideList = (slider) => (
-		<Box className={classes.menuSliderContainer} component="div">
+		<Box className={classes.menuSliderContainer} component="div" onClick={toggleSlider(slider, false)}>
 			<Avatar className={classes.avatar} src={avatar} alt="Chris Patrick" />
 			<Divider />
 			<List>
@@ -88,7 +88,9 @@ const Navbar = () => {
 						<Typography variant="h5" style={{ color: 'tan' }}>
 							Portfolio
 						</Typography>
-						<MobileRightMenuSlider open={state.right}>{sideList('right')}</MobileRightMenuSlider>
+						<MobileRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider('right', false)}>
+							{sideList('right')}
+						</MobileRightMenuSlider>
 					</Toolbar>
 				</AppBar>
 			</Box>
