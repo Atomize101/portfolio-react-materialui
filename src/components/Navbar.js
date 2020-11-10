@@ -10,6 +10,7 @@ import {
 	List,
 	Typography,
 	Box,
+	ListItemIcon,
 } from '@material-ui/core';
 import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import avatar from '../avatar2.png';
@@ -28,7 +29,29 @@ const useStyles = makeStyles((theme) => ({
 		width: theme.spacing(13),
 		height: theme.spacing(13),
 	},
+	listItem: {
+		color: 'tan',
+	},
 }));
+
+const menuItems = [
+	{
+		listIcon: <Home />,
+		listText: 'Home',
+	},
+	{
+		listIcon: <AssignmentInd />,
+		listText: 'Resume',
+	},
+	{
+		listIcon: <Apps />,
+		listText: 'Portfolio',
+	},
+	{
+		listIcon: <ContactMail />,
+		listText: 'Contacts',
+	},
+];
 
 const Navbar = () => {
 	const classes = useStyles();
@@ -36,6 +59,15 @@ const Navbar = () => {
 		<>
 			<Box className={classes.menuSliderContainer} component="div">
 				<Avatar className={classes.avatar} src={avatar} alt="Chris Patrick" />
+				<Divider />
+				<List>
+					{menuItems.map((lsItem, key) => (
+						<ListItem button key={key}>
+							<ListItemIcon className={classes.listItem}>{lsItem.listIcon}</ListItemIcon>
+							<ListItemText className={classes.listItem} primary={lsItem.listText} />
+						</ListItem>
+					))}
+				</List>
 			</Box>
 			<Box component="nav">
 				<AppBar position="static" style={{ background: '#222' }}>
