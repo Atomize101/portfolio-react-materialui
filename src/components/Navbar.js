@@ -86,9 +86,9 @@ const Navbar = () => {
 							<ArrowBack style={{ color: 'tomato' }} />
 						</IconButton>
 						<Typography variant="h5" style={{ color: 'tan' }}>
-							Home
+							Menu
 						</Typography>
-						<MobileRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider('right', false)}>
+						<MobileRightMenuSlider anchor="left" open={state.right} onClose={toggleSlider('right', false)}>
 							{sideList('right')}
 						</MobileRightMenuSlider>
 					</Toolbar>
