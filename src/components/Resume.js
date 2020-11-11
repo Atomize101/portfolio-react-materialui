@@ -119,7 +119,7 @@ const Resume = () => {
 							<Typography variant="h5" align="center" className={classes.subHeading}>
 								Skills
 							</Typography>
-							<Typography variant="body1" align="center" style={{ color: 'yellow' }}>
+							<Typography variant="body1" align="center" style={{ color: 'tomato' }}>
 								Javascript | HTML | CSS | Python | React | Git | GitHub | JQuery | Web Development | QA
 								| Software Development | Agile | MySQL | API's | Node | Express | Bootstrap | Jira |
 								Test | Cases | Web Services
@@ -145,7 +145,7 @@ const Resume = () => {
 							</Typography>
 						</Box>
 					</Box>
-					<Box component="div" className={classes.timeLine}>
+					<Box component="div" align="right" className={classes.timeLine}>
 						<Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
 							2017
 						</Typography>
