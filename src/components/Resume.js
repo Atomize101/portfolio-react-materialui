@@ -97,6 +97,11 @@ const useStyles = makeStyles((theme) => ({
 		padding: '3rem 0',
 		textTransform: 'uppercase',
 	},
+	subHeading: {
+		color: 'white',
+		padding: '0',
+		textTransform: 'uppercase',
+	},
 }));
 
 const Resume = () => {
@@ -113,6 +118,20 @@ const Resume = () => {
 						<Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
 							2020
 						</Typography>
+						<Box component="div" className={classes.timeLineItem}>
+							<Typography variant="h5" align="center" className={classes.subHeading}>
+								Quality Assurance Analyst
+							</Typography>
+							<Typography variant="body1" align="center" style={{ color: 'tomato' }}>
+								North American Bancard
+							</Typography>
+							<Typography variant="subtitle1" align="center" style={{ color: 'tan' }}>
+								Enim anim sint aliqua sit minim culpa pariatur consectetur excepteur adipisicing
+								exercitation proident. Laboris in et amet aute dolor pariatur aliqua minim cillum. Irure
+								sint ullamco et exercitation proident pariatur veniam. Officia tempor consectetur anim
+								dolore consequat occaecat.
+							</Typography>
+						</Box>
 					</Box>
 				</Box>
 			</div>
