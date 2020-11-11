@@ -37,7 +37,8 @@ const Header = () => {
 			<Grid container justify="center">
 				<Avatar className={classes.avatar} src={avatar} alt="NuclearCoding" />
 			</Grid>
-
+			<Typography className={classes.title}>We are still under contruction! Please excuse our dust.</Typography>
+			<br />
 			<Typography className={classes.title} variant="h4">
 				<Typed strings={['NuclearCoding']} typeSpeed={40} />
 			</Typography>
