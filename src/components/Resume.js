@@ -52,7 +52,7 @@ const useStyles = makeStyles((theme) => ({
 			borderWidth: '0.625rem',
 			transform: 'rotate(45deg)',
 		},
-		[theme.breakpoints.up('md')]: {
+		[theme.breakpoints.between('sm', 'lg')]: {
 			width: '44%',
 			margin: '1rem',
 			'&:nth-of-type(2n)': {
@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
 		'&:before': {
 			display: 'none',
 		},
-		[theme.breakpoints.up('md')]: {
+		[theme.breakpoints.between('sm', 'lg')]: {
 			textAlign: 'center',
 			margin: '0 auto',
 			'&:nth-of-type(2n)': {
@@ -115,12 +115,62 @@ const Resume = () => {
 						Work Experience
 					</Typography>
 					<Box component="div" className={classes.timeLine}>
+						<Box component="div" className={classes.timeLineItem}>
+							<Typography variant="h5" align="center" className={classes.subHeading}>
+								Skills
+							</Typography>
+							<Typography variant="body1" align="center" style={{ color: 'yellow' }}>
+								Javascript | HTML | CSS | Python | React | Git | GitHub | JQuery | Web Development | QA
+								| Software Development | Agile | MySQL | API's | Node | Express | Bootstrap | Jira |
+								Test | Cases | Web Services
+							</Typography>
+						</Box>
+					</Box>
+					<Box component="div" className={classes.timeLine}>
 						<Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
 							2020
 						</Typography>
 						<Box component="div" className={classes.timeLineItem}>
 							<Typography variant="h5" align="center" className={classes.subHeading}>
 								Quality Assurance Analyst
+							</Typography>
+							<Typography variant="body1" align="center" style={{ color: 'tomato' }}>
+								North American Bancard
+							</Typography>
+							<Typography variant="subtitle1" align="center" style={{ color: 'tan' }}>
+								Enim anim sint aliqua sit minim culpa pariatur consectetur excepteur adipisicing
+								exercitation proident. Laboris in et amet aute dolor pariatur aliqua minim cillum. Irure
+								sint ullamco et exercitation proident pariatur veniam. Officia tempor consectetur anim
+								dolore consequat occaecat.
+							</Typography>
+						</Box>
+					</Box>
+					<Box component="div" className={classes.timeLine}>
+						<Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+							2017
+						</Typography>
+						<Box component="div" className={classes.timeLineItem}>
+							<Typography variant="h5" align="center" className={classes.subHeading}>
+								Quality Control of Terminal Deployment
+							</Typography>
+							<Typography variant="body1" align="center" style={{ color: 'tomato' }}>
+								North American Bancard
+							</Typography>
+							<Typography variant="subtitle1" align="center" style={{ color: 'tan' }}>
+								Enim anim sint aliqua sit minim culpa pariatur consectetur excepteur adipisicing
+								exercitation proident. Laboris in et amet aute dolor pariatur aliqua minim cillum. Irure
+								sint ullamco et exercitation proident pariatur veniam. Officia tempor consectetur anim
+								dolore consequat occaecat.
+							</Typography>
+						</Box>
+					</Box>
+					<Box component="div" className={classes.timeLine}>
+						<Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+							2015
+						</Typography>
+						<Box component="div" className={classes.timeLineItem}>
+							<Typography variant="h5" align="center" className={classes.subHeading}>
+								Escalations Support
 							</Typography>
 							<Typography variant="body1" align="center" style={{ color: 'tomato' }}>
 								North American Bancard
