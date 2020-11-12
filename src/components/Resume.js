@@ -138,10 +138,17 @@ const Resume = () => {
 								North American Bancard
 							</Typography>
 							<Typography variant="subtitle1" align="center" style={{ color: 'tan' }}>
-								Enim anim sint aliqua sit minim culpa pariatur consectetur excepteur adipisicing
-								exercitation proident. Laboris in et amet aute dolor pariatur aliqua minim cillum. Irure
-								sint ullamco et exercitation proident pariatur veniam. Officia tempor consectetur anim
-								dolore consequat occaecat.
+								Executed various testing methods such as black box, functional, regression and user
+								acceptance testing to validate requirements are met.
+							</Typography>{' '}
+							<Typography align="center" style={{ color: 'tan' }}>
+								Strong understanding of the software development life cycle. Provided consistent and
+								accurate testing results as to improve the company's newest software/hardware.
+							</Typography>{' '}
+							<Typography align="center" style={{ color: 'tan' }}>
+								Helped manage different processes and streamline their effectiveness. Support the
+								terminal engineering department by gaining knowledge of file builds, back end procedures
+								and creating knowledge documents.
 							</Typography>
 						</Box>
 					</Box>
@@ -157,10 +164,20 @@ const Resume = () => {
 								North American Bancard
 							</Typography>
 							<Typography variant="subtitle1" align="center" style={{ color: 'tan' }}>
-								Enim anim sint aliqua sit minim culpa pariatur consectetur excepteur adipisicing
-								exercitation proident. Laboris in et amet aute dolor pariatur aliqua minim cillum. Irure
-								sint ullamco et exercitation proident pariatur veniam. Officia tempor consectetur anim
-								dolore consequat occaecat.
+								Ensure all orders are QC’d in the Microsoft Dynamics GP inventory system.
+							</Typography>{' '}
+							<Typography align="center" style={{ color: 'tan' }}>
+								Ensure equipment is properly inspected before shipping to the customers.
+							</Typography>{' '}
+							<Typography align="center" style={{ color: 'tan' }}>
+								Act as a liaison between the terminal download team and order fulfillment.
+							</Typography>
+							<Typography align="center" style={{ color: 'tan' }}>
+								Responsible for transferring equipment batch files to the finance team.
+							</Typography>
+							<Typography align="center" style={{ color: 'tan' }}>
+								Utilize knowledge from prior positions to correct file builds before deploying
+								equipment.
 							</Typography>
 						</Box>
 					</Box>
@@ -176,10 +193,7 @@ const Resume = () => {
 								North American Bancard
 							</Typography>
 							<Typography variant="subtitle1" align="center" style={{ color: 'tan' }}>
-								Enim anim sint aliqua sit minim culpa pariatur consectetur excepteur adipisicing
-								exercitation proident. Laboris in et amet aute dolor pariatur aliqua minim cillum. Irure
-								sint ullamco et exercitation proident pariatur veniam. Officia tempor consectetur anim
-								dolore consequat occaecat.
+								Support for various technical issues regarding credit card processing.
 							</Typography>
 						</Box>
 					</Box>
