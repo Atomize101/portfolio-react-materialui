@@ -49,19 +49,12 @@ const Portfolio = () => {
 									MemoryBank
 								</Typography>
 								<Typography variant="body2" color="textSecondary" component="p">
-									Ea cupidatat Lorem sit exercitation eu excepteur id Lorem eiusmod est sit duis. Anim
-									anim Lorem duis ea deserunt aliquip ex sunt enim. Mollit laboris elit et adipisicing
-									elit. Dolore aliquip magna ex nostrud mollit laboris in non reprehenderit Lorem
-									nostrud quis veniam. Tempor aute Lorem cupidatat proident excepteur consequat.
+									This is a MERN stack app that allows users to create a memory and attach an image.
+									The data is saved to a mongo database for persistence.
 								</Typography>
 							</CardContent>
 							<CardActions>
-								<Button size="small" color="primary">
-									Share
-								</Button>
-								<Button size="small" color="primary">
-									Live Demo
-								</Button>
+								<a href="https://sleepy-hodgkin-8799f5.netlify.app/">Demo</a>
 							</CardActions>
 						</CardActionArea>
 					</Card>
@@ -80,9 +73,6 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions>
-								<Button size="small" color="primary">
-									Share
-								</Button>
 								<a href="https://quizzical-lumiere-f9335b.netlify.app/">Demo</a>
 							</CardActions>
 						</CardActionArea>
@@ -103,9 +93,6 @@ const Portfolio = () => {
 								</Typography>
 							</CardContent>
 							<CardActions>
-								<Button size="small" color="primary">
-									Share
-								</Button>
 								<a href="https://infallible-wright-c4d11e.netlify.app/">Demo</a>
 							</CardActions>
 						</CardActionArea>
