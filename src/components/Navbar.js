@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import Footer from './Footer';
 import MobileRightMenuSlider from '@material-ui/core/Drawer';
 import {
 	AppBar,
@@ -91,10 +92,11 @@ const Navbar = () => {
 							<ArrowBack style={{ color: 'tomato' }} />
 						</IconButton>
 						<Typography variant="h5" style={{ color: 'tan' }}>
-							Menu
+							Home
 						</Typography>
 						<MobileRightMenuSlider anchor="left" open={state.right} onClose={toggleSlider('right', false)}>
 							{sideList('right')}
+							<Footer />
 						</MobileRightMenuSlider>
 					</Toolbar>
 				</AppBar>
