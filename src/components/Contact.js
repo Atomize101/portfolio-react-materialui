@@ -12,24 +12,29 @@ const useStyles = makeStyles((theme) => ({
 		transform: 'translate(-50%, -50%)',
 		position: 'absolute',
 	},
+	button: {
+		marginTop: '1rem',
+		color: 'tomato',
+		borderColor: 'tomato',
+	},
 }));
 
 const InputField = withStyles({
 	root: {
-		'& label.mui-focused': {
+		'& label.Mui-focused': {
 			color: 'tomato',
 		},
 		'& label': {
 			color: 'tan',
 		},
-		'& .MuiOutlinedInput-root': {
+		'&.MuiOutlinedInput-root': {
 			'& fieldset': {
 				borderColor: 'tan',
 			},
 			'&:hover fieldset': {
 				borderColor: 'tan',
 			},
-			'& .Mui-focused fieldset': {
+			'&.Mui-focused fieldset': {
 				borderColor: 'tan',
 			},
 		},
@@ -40,11 +45,16 @@ const Contact = () => {
 	const classes = useStyles();
 
 	return (
-		<Box component="div">
+		<Box component="div" style={{ background: '#233', height: '100vh' }}>
 			<Navbar />
 			<Grid container justify="center">
 				<Box component="form" className={classes.form}>
-					<Typography variant="h5">Contact me</Typography>
+					<Typography
+						variant="h5"
+						style={{ color: 'tomato', textAlign: 'center', textTransform: 'uppercase' }}
+					>
+						Contact me
+					</Typography>
 					<InputField
 						fullwidth={true}
 						label="Name"
@@ -72,7 +82,7 @@ const Contact = () => {
 						size="medium"
 					/>
 					<br />
-					<Button variant="outlined" fullWidth={true} sendIcon={<SendIcon />}>
+					<Button className={classes.button} variant="outlined" fullWidth={true} sendIcon={<SendIcon />}>
 						Contact Me
 					</Button>
 				</Box>
