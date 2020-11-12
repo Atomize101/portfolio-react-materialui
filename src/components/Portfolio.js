@@ -20,7 +20,7 @@ import project4 from '../images/react.png';
 const useStyles = makeStyles({
 	mainContainer: {
 		background: '#233',
-		height: '200%',
+		height: '300%',
 	},
 	cardContainer: {
 		maxWidth: 500,
