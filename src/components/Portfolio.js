@@ -26,6 +26,9 @@ const useStyles = makeStyles({
 		maxWidth: 500,
 		margin: '5rem auto',
 	},
+	buttonPadding: {
+		padding: '30px',
+	},
 });
 
 const Portfolio = () => {
@@ -34,7 +37,7 @@ const Portfolio = () => {
 	return (
 		<Box component="div" className={classes.mainContainer}>
 			<Navbar />
-			<Grid container justify="center" className={classes.cardContainer}>
+			<Grid container spacing={2} justify="center" className={classes.cardContainer}>
 				{/*Project 1*/}
 				<Grid item xs={12} sm={8} md={6}>
 					<Card>
