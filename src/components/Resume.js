@@ -122,7 +122,7 @@ const Resume = () => {
 							<Typography variant="body1" align="center" style={{ color: 'tomato' }}>
 								Javascript | HTML | CSS | Python | React | Git | GitHub | JQuery | Web Development | QA
 								| Software Development | Agile | MySQL | API's | Node | Express | Bootstrap | Jira |
-								Test | Cases | Web Services
+								Test Cases | Web Services
 							</Typography>
 						</Box>
 					</Box>
