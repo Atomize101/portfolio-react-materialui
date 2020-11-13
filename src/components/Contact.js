@@ -54,6 +54,7 @@ const Contact = () => {
 					>
 						Contact me...
 					</Typography>
+					{/*
 					<InputField
 						fullwidth={true}
 						label="Name"
@@ -80,8 +81,15 @@ const Contact = () => {
 						margin="dense"
 						size="medium"
 					/>
+					*/}
 					<br />
-					<Button className={classes.button} variant="outlined" fullWidth={true} sendIcon={<SendIcon />}>
+					<Button
+						className={classes.button}
+						variant="outlined"
+						fullWidth={true}
+						sendIcon={<SendIcon />}
+						href="mailto:atomize101@gmail.com"
+					>
 						Contact Me
 					</Button>
 				</Box>
