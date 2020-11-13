@@ -3,6 +3,9 @@ import { makeStyles, withStyles } from '@material-ui/core/styles';
 import { TextField, Typography, Button, Grid, Box } from '@material-ui/core';
 import SendIcon from '@material-ui/icons/Send';
 import Navbar from './Navbar';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 const useStyles = makeStyles((theme) => ({
 	form: {
@@ -12,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
 		position: 'absolute',
 	},
 	button: {
+		justifyContent: 'center',
 		marginTop: '1rem',
 		color: 'tomato',
 		borderColor: 'tomato',
@@ -82,7 +86,6 @@ const Contact = () => {
 						size="medium"
 					/>
 					*/}
-					<br />
 					<Button
 						className={classes.button}
 						variant="outlined"
@@ -91,6 +94,33 @@ const Contact = () => {
 						href="mailto:atomize101@gmail.com"
 					>
 						Contact Me
+					</Button>
+					<Button
+						className={classes.button}
+						variant="outlined"
+						fullWidth={true}
+						icon={<GitHubIcon />}
+						href="https://github.com/Atomize101"
+					>
+						Github
+					</Button>
+					<Button
+						className={classes.button}
+						variant="outlined"
+						fullWidth={true}
+						icon={<TwitterIcon />}
+						href="https://twitter.com/atomize101"
+					>
+						Twitter
+					</Button>
+					<Button
+						className={classes.button}
+						variant="outlined"
+						fullWidth={true}
+						icon={<LinkedInIcon />}
+						href="https://www.linkedin.com/in/chris-patrick-29854138/"
+					>
+						LinkedIn
 					</Button>
 				</Box>
 			</Grid>
