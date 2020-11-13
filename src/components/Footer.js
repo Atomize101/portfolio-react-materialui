@@ -25,9 +25,24 @@ const Footer = () => {
 	const classes = useStyles();
 	return (
 		<BottomNavigation width="auto" style={{ background: '#222' }}>
-			<BottomNavigationAction className={classes.root} style={{ padding: 0 }} icon={<GitHubIcon />} />
-			<BottomNavigationAction className={classes.root} style={{ padding: 0 }} icon={<TwitterIcon />} />
-			<BottomNavigationAction className={classes.root} style={{ padding: 0 }} icon={<LinkedInIcon />} />
+			<BottomNavigationAction
+				className={classes.root}
+				style={{ padding: 0 }}
+				icon={<GitHubIcon />}
+				href="https://github.com/Atomize101"
+			/>
+			<BottomNavigationAction
+				className={classes.root}
+				style={{ padding: 0 }}
+				icon={<TwitterIcon />}
+				href="https://twitter.com/atomize101"
+			/>
+			<BottomNavigationAction
+				className={classes.root}
+				style={{ padding: 0 }}
+				icon={<LinkedInIcon />}
+				href="https://www.linkedin.com/in/chris-patrick-29854138/"
+			/>
 		</BottomNavigation>
 	);
 };
