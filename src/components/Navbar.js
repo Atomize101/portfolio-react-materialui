@@ -15,9 +15,10 @@ import {
 	Box,
 	ListItemIcon,
 } from '@material-ui/core';
-import { ArrowBack, AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
+import { AssignmentInd, Home, Apps, ContactMail } from '@material-ui/icons';
 import avatar from '../avatar.jpg';
 import { makeStyles } from '@material-ui/core/styles';
+import MenuIcon from '@material-ui/icons/Menu';
 
 // CSS styles
 const useStyles = makeStyles((theme) => ({
@@ -89,7 +90,7 @@ const Navbar = () => {
 				<AppBar position="static" style={{ background: '#222' }}>
 					<Toolbar>
 						<IconButton onClick={toggleSlider('right', true)}>
-							<ArrowBack style={{ color: 'tomato' }} />
+							<MenuIcon style={{ color: 'tomato' }} />
 						</IconButton>
 						<Typography variant="h5" style={{ color: 'tan' }}>
 							Home
