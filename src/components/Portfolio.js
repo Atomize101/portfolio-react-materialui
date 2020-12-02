@@ -42,7 +42,7 @@ const Portfolio = () => {
 				{/*Project 1*/}
 				<Grid item xs={12} sm={8} md={6}>
 					<Card>
-						<CardActionArea>
+						<CardActionArea href="https://sleepy-hodgkin-8799f5.netlify.app/">
 							<CardMedia component="img" alt="Project 1" height="140" image={project2} />
 							<CardContent>
 								<Typography gutterBottom variant="h5">
@@ -62,7 +62,7 @@ const Portfolio = () => {
 				{/*Project 2*/}
 				<Grid item xs={12} sm={8} md={6}>
 					<Card>
-						<CardActionArea>
+						<CardActionArea href="https://quizzical-lumiere-f9335b.netlify.app/">
 							<CardMedia component="img" alt="Project 2" height="140" image={project4} />
 							<CardContent>
 								<Typography gutterBottom variant="h5">
@@ -81,7 +81,7 @@ const Portfolio = () => {
 				{/*Project 3*/}
 				<Grid item xs={12} sm={8} md={6}>
 					<Card>
-						<CardActionArea>
+						<CardActionArea href="https://infallible-wright-c4d11e.netlify.app/">
 							<CardMedia component="img" alt="Project 3" height="140" image={project1} />
 							<CardContent>
 								<Typography gutterBottom variant="h5">
